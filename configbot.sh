@@ -1,10 +1,10 @@
 
 barra="\033[0m\e[34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo "/root/multi.sh" > /bin/mko && chmod +x /bin/mko > /dev/null 2>&1
+echo "/root/configbot.sh" > /bin/cbot && chmod +x /bin/cbot > /dev/null 2>&1
 
-##SCRIPTS A INSTALAR
+##CONFIGURACOES DO BOT
 
-##TEAM-ILUUMINATI
+##BY NARUTINBR
 
 INICIAR () {
       echo -e "\E[41;1;37m INICIANDO. \E[0m"
@@ -55,10 +55,10 @@ while true $x != "ok"
 do
 clear
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "\E[41;1;37m            ○ MULTI SCRIPTS MANAGER ○             \E[0m"
+echo -e "\E[41;1;37m                    CONFIGBOT                     \E[0m"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "
-\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;31mINICIAR
+\033[1;31m  [\033[1;36m 01 \033[1;31m] \033[1;37m• \033[1;33mINICIAR
 \033[1;31m  [\033[1;36m 02 \033[1;31m] \033[1;37m• \033[1;33mATUALIZAR
 \033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mBACKUP
 \033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mREMOVER
