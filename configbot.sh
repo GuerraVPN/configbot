@@ -82,7 +82,7 @@ case "$x" in
    clear
    echo -e "\E[41;1;37m BOT INICIADO \E[0m"
    sleep 3
-   bash configbot.sh
+   bash /root/bot/configbot.sh
    exit;
    ;;
     2 | 02)
@@ -91,7 +91,7 @@ case "$x" in
    clear
    echo -e "\E[41;1;37m SCRIPT ATUALIAZADO \E[0m"
    sleep 3
-   bash configbot.sh
+   bash /root/bot/configbot.sh
    exit;
    ;;
     3 | 03)
@@ -101,7 +101,7 @@ case "$x" in
    clear
    echo -e "\E[41;1;37m PRONTO \E[0m"
    sleep 3
-   bash configbot.sh
+   bash /root/bot/configbot.sh
    exit;
    ;;
    4 | 04)
@@ -121,7 +121,7 @@ case "$x" in
    clear
    echo -e "\E[41;1;37m PRONTO \E[0m"
    sleep 3
-   bash configbot.sh
+   bash /root/bot/configbot.sh
    exit;
    ;;
    0 | 00)
