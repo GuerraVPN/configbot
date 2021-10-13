@@ -1,6 +1,6 @@
 
 barra="\033[0m\e[34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo "/root/configbot.sh" > /bin/cbot && chmod +x /bin/cbot > /dev/null 2>&1
+echo "/root/bot/configbot.sh" > /bin/cbot && chmod +x /bin/cbot > /dev/null 2>&1
 
 ##CONFIGURACOES DO BOT
 
