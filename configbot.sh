@@ -70,8 +70,8 @@ RESTAURAR () {
 }
 EDITAR () {
       clear
-      nano /bot/dadosBot.ini
-      nano /bot/textos.json
+      nano /root/bot/dadosBot.ini
+      nano /root/bot/textos.json
       clear
       echo -e "\E[41;1;37m BOT EDITADO\E[0m"
 }
