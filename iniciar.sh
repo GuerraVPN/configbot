@@ -1,7 +1,7 @@
 clear
 
 if [ ! -d "bot" ]; then
-	mkdir bot
+	cd /root/bot
 fi
 
 cd bot
