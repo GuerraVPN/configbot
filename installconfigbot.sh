@@ -15,5 +15,5 @@ mv configbot bot
 clear
 chmod +x /root/bot/configbot.sh
 clear
-echo-e "\E[41;1;37m ...INICIANDO... \E[0m"
+echo -e "\E[41;1;37m ...INICIANDO... \E[0m"
 bash /root/bot/configbot.sh
