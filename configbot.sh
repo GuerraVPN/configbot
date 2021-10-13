@@ -29,6 +29,7 @@ ATUALIZAR () {
       clear
       echo -e "\E[41;1;37m ATUALIZANDO...  \E[0m"
       sleep 1
+      chmod +x /root/bot/configbot.sh
       cd /root
       clear
 }
