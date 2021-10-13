@@ -96,8 +96,6 @@ case "$x" in
    clear
    INICIAR
    clear
-   bash iniciar.sh
-   clear
    echo -e "\E[41;1;37m BOT INICIADO \E[0m"
    sleep 3
    bash /root/bot/configbot.sh
