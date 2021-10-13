@@ -16,6 +16,8 @@ INICIAR () {
       echo -e "\E[41;1;37m INICIANDO...  \E[0m"
       sleep 1
       clear
+      bash iniciar.sh
+      clear
 }
 ATUALIZAR () {
       echo -e "\E[41;1;37m ATUALIZANDO. \E[0m"
