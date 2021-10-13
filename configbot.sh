@@ -66,6 +66,12 @@ RESTAURAR () {
       sleep 1
       clear
 }
+EDITAR () {
+      clear
+      nano /bot/dadosBot.ini
+      nano /bot/textos.json
+      clear
+      echo -e "\E[41;1;37m BOT EDITADO\E[0m"
 while true $x != "ok"
 do
 clear
@@ -78,6 +84,7 @@ echo -e "
 \033[1;31m  [\033[1;36m 03 \033[1;31m] \033[1;37m• \033[1;33mBACKUP
 \033[1;31m  [\033[1;36m 04 \033[1;31m] \033[1;37m• \033[1;33mREMOVER
 \033[1;31m  [\033[1;36m 05 \033[1;31m] \033[1;37m• \033[1;33mRESTAURAR
+\033[1;31m  [\033[1;36m 06 \033[1;31m] \033[1;37m• \033[1;37mEDITAR BOT
 \033[1;31m  [\033[1;36m 00 \033[1;31m] \033[1;37m• \033[1;37mSAIR"
 echo -e "\033[0;34m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo ""
@@ -133,6 +140,13 @@ case "$x" in
    clear
    echo -e "\E[41;1;37m PRONTO \E[0m"
    sleep 3
+   bash /root/bot/configbot.sh
+   exit;
+   ;;
+    6 | 06)
+   clear
+   EDITAR
+   clear
    bash /root/bot/configbot.sh
    exit;
    ;;
