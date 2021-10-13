@@ -27,7 +27,7 @@ ATUALIZAR () {
       clear
       echo -e "\E[41;1;37m ATUALIZANDO.. \E[0m"
       sleep 1
-      wget https://raw.githubusercontent.com/GuerraVPN/configbot/main/configbot.sh > /dev/null
+      wget https://raw.githubusercontent.com/GuerraVPN/configbot/main/configbot.sh
       clear
       echo -e "\E[41;1;37m ATUALIZANDO...  \E[0m"
       sleep 1
