@@ -99,6 +99,8 @@ case "$x" in
    clear
    ATUALIZAR
    clear
+   chmod +x /root/bot/configbot.sh
+   clear
    echo -e "\E[41;1;37m SCRIPT ATUALIAZADO \E[0m"
    sleep 3
    bash /root/bot/configbot.sh
