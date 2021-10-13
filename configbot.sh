@@ -16,7 +16,7 @@ INICIAR () {
       echo -e "\E[41;1;37m INICIANDO...  \E[0m"
       sleep 1
       clear
-      bash iniciar.sh
+      bash /root/bot/iniciar.sh
       clear
 }
 ATUALIZAR () {
@@ -26,8 +26,8 @@ ATUALIZAR () {
       rm /root/bot/configbot.sh
       clear
       echo -e "\E[41;1;37m ATUALIZANDO.. \E[0m"
-      sleep 1
-      wget https://raw.githubusercontent.com/GuerraVPN/configbot/main/configbot.sh
+      sleep1
+      wget https://raw.githubusercontent.com/GuerraVPN/configbot/main/configbot.sh > /dev/null
       clear
       echo -e "\E[41;1;37m ATUALIZANDO...  \E[0m"
       sleep 1
