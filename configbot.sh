@@ -8,53 +8,61 @@ echo "/root/configbot.sh" > /bin/cbot && chmod +x /bin/cbot > /dev/null 2>&1
 
 INICIAR () {
       echo -e "\E[41;1;37m INICIANDO. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m INICIANDO.. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m INICIANDO...  \E[0m"
-      sleep 3
+      sleep 1
       clear
 }
 ATUALIZAR () {
       echo -e "\E[41;1;37m ATUALIZANDO. \E[0m"
-      sleep 3
+      sleep 1
       cd /root/bot
       rm /root/bot/configbot.sh
       clear
       echo -e "\E[41;1;37m ATUALIZANDO.. \E[0m"
-      sleep 3
+      sleep 1
       wget https://raw.githubusercontent.com/GuerraVPN/configbot/main/configbot.sh
       clear
       echo -e "\E[41;1;37m ATUALIZANDO...  \E[0m"
-      sleep 3
+      sleep 1
       cd /root
       clear
 }
 BACKUP () {
       echo -e "\E[41;1;37m FAZENDO BACKUP. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m FAZENDO BACKUP.. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m FAZENDO BACKUP... \E[0m"
-      sleep 3
+      sleep 1
       clear
 }
 REMOVER () {
       echo -e "\E[41;1;37m REMOVENDO ARQUIVOS. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m REMOVENDO ARQUIVOS.. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m REMOVENDO ARQUIVOS... \E[0m"
-      sleep 3
+      sleep 1
       clear
 }
 RESTAURAR () {
       echo -e "\E[41;1;37m RESTAURANDO ARQUIVOS. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m RESTAURANDO ARQUIVOS.. \E[0m"
-      sleep 3
+      sleep 1
+      clear
       echo -e "\E[41;1;37m RESTAURANDO ARQUIVOS... \E[0m"
-      sleep 3
+      sleep 1
       clear
 }
 while true $x != "ok"
